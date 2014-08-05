@@ -19,7 +19,8 @@ lpreview = hasProperty('lpreview')
 apply plugin: 'android'
 
 repositories {
-    mavenCentral()
+    mavenLocal()
+    maven { url 'http://maven.oschina.net/content/groups/public/' }
     flatDir {
         dirs 'libs'
     }

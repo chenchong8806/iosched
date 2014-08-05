@@ -20,7 +20,8 @@ apply plugin: 'eclipse'
 
 buildscript {
     repositories {
-        mavenCentral()
+        mavenLocal()
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
     }
 
     dependencies {
@@ -29,7 +30,8 @@ buildscript {
 }
 
 repositories {
-    mavenCentral()
+    mavenLocal()
+    maven { url 'http://maven.oschina.net/content/groups/public/' }
 }
 
 
